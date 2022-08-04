@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
+    <title>Signup</title>
+  <script src="static/js/main.js"></script>
+<style>  
+.sign_st {   
+
+display: flex;  
+justify-content: center;  
+align-items: center;  
+}  
+button {  
+background-color: lightblue;  
+color: black;  
+font-size: 25px;  
+}  
+</style>
+</head>
+<body style="background-image: url(static/img/slide/iasa.jpg);">
+    <form method="POST" action="/signup">
+        <!-- Heading -->
+        <div class="sign_st">
+        <h4>
+            Create an account
+        </h4>        
+    </div>
+        <!-- Subheading -->
+        <div class="sign_st">
+        <p>
+            Please fill up your information below to sign up.
+        </p>
+    </div>
+        <!-- Email -->
+        <div class="sign_st">
+        <div>
+            <label>Email address*</label>
+            <div>
+                <input type="email"  name="email" id="emailStr" required>
+            </div>
+        </div>
+    </div>
+
+        <!-- Password -->
+        <div class="sign_st">
+        <div>
+            <label>Password*</label>
+            <div class="input-group">
+                <input type="password"  name="password" minlength="6">
+            </div>
+        </div>
+    </div>
+        <br>
+      <div class="sign_st">
+                    <label>Name</label>
+        </div>
+        <div class="sign_st">
+            <div>
+                <input type="text"  name="name">
+            </div>
+            
+            </div>
+<br>
+<br> 
+
+        <!-- Button -->
+        <div class="sign_st">
+        <div>
+            <button type="submit">Sign up</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
